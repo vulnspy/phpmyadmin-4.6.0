@@ -2,8 +2,6 @@ version: '3'
 
 services:
   web:
-    image: vsplate/deb_apache2_php7_mysql5:latest
-    volumes:
-      - ./html/:/var/www/html/
+    image: vsplate/phpmyadmin-4.6.0:latest
     ports:
       - "80:80"
